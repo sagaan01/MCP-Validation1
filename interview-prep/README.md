@@ -8,14 +8,42 @@
 
 ## How to use this guide
 
-1. Read each topic’s **Core concepts** first.
+### Step A — Understand in layman terms first (recommended)
+
+Start here: **[layman/README.md](./layman/README.md)**
+
+Every JD topic is explained in plain English with everyday analogies and self-explanatory examples (no jargon left unexplained).
+
+### Step B — Interview Q&A + code samples
+
+1. Read each topic’s **Core concepts**.
 2. Practice answering out loud using the **STAR / architecture narrative** style answers.
 3. Rehearse the **sample code / SQL / pipeline** snippets so you can whiteboard them.
 4. End every technical answer with **impact** (flakes reduced, pipeline speed, risk prevented, mentorship outcome).
 
 ---
 
-## Topic index
+## Layman guides (plain English)
+
+| Topic | Layman file |
+|-------|-------------|
+| What is SDET / Principal SDET? | [layman/00-what-is-sdet.md](./layman/00-what-is-sdet.md) |
+| Playwright & frameworks | [layman/01-playwright-simple.md](./layman/01-playwright-simple.md) |
+| TypeScript / JavaScript | [layman/02-typescript-simple.md](./layman/02-typescript-simple.md) |
+| API & backend | [layman/03-api-simple.md](./layman/03-api-simple.md) |
+| SQL, data, ETL | [layman/04-data-etl-simple.md](./layman/04-data-etl-simple.md) |
+| Azure DevOps / CI/CD / gates | [layman/05-cicd-simple.md](./layman/05-cicd-simple.md) |
+| AI-assisted testing | [layman/06-ai-simple.md](./layman/06-ai-simple.md) |
+| Wealth management | [layman/07-wealth-simple.md](./layman/07-wealth-simple.md) |
+| UAT & data quality strategy | [layman/08-uat-strategy-simple.md](./layman/08-uat-strategy-simple.md) |
+| Leadership & mentoring | [layman/09-leadership-simple.md](./layman/09-leadership-simple.md) |
+| Mobile, Java, cross-stack | [layman/10-mobile-java-simple.md](./layman/10-mobile-java-simple.md) |
+| Big picture + glossary | [layman/11-big-picture.md](./layman/11-big-picture.md) |
+| Analogies cheat sheet | [layman/12-analogies-cheatsheet.md](./layman/12-analogies-cheatsheet.md) |
+
+---
+
+## Interview Q&A topic index
 
 | # | Topic | File |
 |---|--------|------|
@@ -35,17 +63,18 @@
 
 ---
 
-## Suggested study order (intensive prep)
+## Suggested study order
 
-1. Pitch + cheat sheet (12, 13)
-2. Playwright architecture (1) — primary focus for this role
-3. SQL / ETL / data (4) — core expectation
-4. Azure DevOps gates (5)
-5. Wealth domain + UAT strategy (7, 8)
-6. API + TypeScript (3, 2)
-7. AI governance (6)
-8. Leadership + behavioral scenarios (9, 11)
-9. Mobile / Java depth if panel includes it (10)
+1. **Layman guides first** (`layman/`) so every concept is clear in plain English
+2. Pitch + cheat sheet (12, 13)
+3. Playwright architecture (1) — primary focus for this role
+4. SQL / ETL / data (4) — core expectation
+5. Azure DevOps gates (5)
+6. Wealth domain + UAT strategy (7, 8)
+7. API + TypeScript (3, 2)
+8. AI governance (6)
+9. Leadership + behavioral scenarios (9, 11)
+10. Mobile / Java depth if panel includes it (10)
 
 ---
 
