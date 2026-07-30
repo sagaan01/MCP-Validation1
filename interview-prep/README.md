@@ -22,6 +22,22 @@ Deep domain prep (separate from general SDET topics):
 
 ---
 
+## ETL · SQL · Python interview pack
+
+Scenario-based prep for data validation interviews:
+
+**[etl-sql-python/README.md](./etl-sql-python/README.md)**
+
+| File | Contents |
+|------|----------|
+| ETL testing concepts | Stages, DQ dimensions, scenario Q&A |
+| SQL scenarios | Recon, duplicates, fees, window functions |
+| Python scenarios | pandas/pytest/Decimal file & DB validation |
+| End-to-end cases | Combined whiteboard/mock interview cases |
+| Quick revision | Day-of cheat sheet |
+
+---
+
 ## How to use this guide
 
 ### Step A — Understand in layman terms first (recommended)
