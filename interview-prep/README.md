@@ -6,6 +6,22 @@
 
 ---
 
+## Standalone wealth & finance domain pack
+
+Deep domain prep (separate from general SDET topics):
+
+**[wealth-finance-domain/README.md](./wealth-finance-domain/README.md)**
+
+| File | Contents |
+|------|----------|
+| Glossary | Wealth & financial terms in plain English |
+| Basics → Advanced Q&A | Progressive interview Q&A with examples |
+| Layman stories | Stories weaving concepts + testing involvement |
+| Testing map | UI/API/Data testing for every wealth area |
+| Quick revision | Day-of refresh |
+
+---
+
 ## How to use this guide
 
 ### Step A — Understand in layman terms first (recommended)

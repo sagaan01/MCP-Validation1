@@ -101,6 +101,14 @@ You don’t need to be a lawyer. You need to know **permissions and workflows di
 
 ---
 
+## Go deeper (standalone pack)
+
+For full glossary, basics→advanced Q&A, layman stories, and testing maps, see:
+
+**[../wealth-finance-domain/README.md](../wealth-finance-domain/README.md)**
+
+---
+
 ## Fees (why testers care)
 
 Clients pay fees such as:
