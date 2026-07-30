@@ -245,6 +245,14 @@ Also verify **idempotent replay**: re-running pipeline doesn’t duplicate facts
 
 ---
 
+## Go deeper (interview scenarios)
+
+For scenario-based ETL + SQL + Python interview Q&A with examples, see:
+
+**[../etl-sql-python/README.md](../etl-sql-python/README.md)**
+
+---
+
 ## Q11. “Data quality severity model?”
 
 | Severity | Example | Gate |
