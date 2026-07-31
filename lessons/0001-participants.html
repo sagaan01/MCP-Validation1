@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lesson 0001 — Name the MCP participants</title>
+  <link rel="stylesheet" href="../assets/lesson.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="lesson-head">
+      <p class="eyebrow">Lesson 0001 · MCP</p>
+      <h1>Name the participants</h1>
+      <p class="lede">Learn to label Host, Client, and Server in real setups — the skill every later MCP lesson builds on.</p>
+    </header>
+
+    <main>
+      <h2>Why this matters for the mission</h2>
+      <p>
+        Debugging Cursor MCP configs fails fast when “server” is used for everything.
+        Official architecture draws three distinct roles.
+        Your win today: point at a concrete product setup and name each role correctly.
+      </p>
+
+      <div class="primary-source">
+        <strong>Primary source</strong>
+        Read
+        <a href="https://modelcontextprotocol.io/docs/learn/architecture#participants">Architecture overview → Participants</a>
+        (official MCP docs). This lesson compresses that section; the docs are the source of truth.
+      </div>
+
+      <h2>Knowledge (short)</h2>
+      <p>
+        MCP uses a client–server architecture. An
+        <span class="term">MCP Host</span>
+        — an AI application like Cursor, Claude Desktop, or Visual Studio Code —
+        connects to one or more
+        <span class="term">MCP Servers</span>
+        by creating one
+        <span class="term">MCP Client</span>
+        per server.
+      </p>
+      <ul>
+        <li><strong>Host</strong> — coordinates clients; owns the user-facing AI app.</li>
+        <li><strong>Client</strong> — maintains the connection to exactly one server and fetches context for the host.</li>
+        <li><strong>Server</strong> — the program that provides context (tools, resources, prompts), whether local or remote.</li>
+      </ul>
+      <p class="sidenote">
+        Local servers often use <span class="mono">stdio</span> on the same machine.
+        Remote servers often use Streamable HTTP and may serve many clients.
+        “MCP server” names the program, not its location.
+        Cite:
+        <a href="https://modelcontextprotocol.io/docs/learn/architecture">architecture docs</a>.
+      </p>
+
+      <p>
+        Cheat sheet (keep open while you practice):
+        <a href="../reference/participants.html">reference/participants.html</a>.
+      </p>
+
+      <h2>Skill practice</h2>
+      <p>Retrieve from memory — avoid peeking until after you answer.</p>
+
+      <div
+        class="quiz"
+        data-quiz
+        data-answer="0"
+        data-explain-ok="Yes. VS Code is the host; it instantiates a client for the Sentry server."
+        data-explain-bad="Not that role. The AI app coordinating clients is the host."
+      >
+        <h3>Check 1</h3>
+        <p class="q">VS Code connects to the remote Sentry MCP server. What is VS Code?</p>
+        <div class="choices">
+          <button type="button" class="choice" data-index="0">host role in this setup</button>
+          <button type="button" class="choice" data-index="1">server role in this setup</button>
+          <button type="button" class="choice" data-index="2">client role in this setup</button>
+        </div>
+        <p class="feedback" aria-live="polite"></p>
+      </div>
+
+      <div
+        class="quiz"
+        data-quiz
+        data-answer="2"
+        data-explain-ok="Yes. The host creates one client object per connected server."
+        data-explain-bad="Remember: one dedicated client connection per server inside the host."
+      >
+        <h3>Check 2</h3>
+        <p class="q">When Cursor adds a second MCP server, what new thing does the host create?</p>
+        <div class="choices">
+          <button type="button" class="choice" data-index="0">a second host application</button>
+          <button type="button" class="choice" data-index="1">a second JSON-RPC schema</button>
+          <button type="button" class="choice" data-index="2">a second client connection</button>
+        </div>
+        <p class="feedback" aria-live="polite"></p>
+      </div>
+
+      <div
+        class="quiz"
+        data-quiz
+        data-answer="1"
+        data-explain-ok="Yes. The filesystem MCP program is the server, even when it runs locally over stdio."
+        data-explain-bad="Location (local vs remote) does not change the role — the program providing context is the server."
+      >
+        <h3>Check 3</h3>
+        <p class="q">Claude Desktop launches a local filesystem MCP over stdio. That program is the…</p>
+        <div class="choices">
+          <button type="button" class="choice" data-index="0">MCP host for filesystem</button>
+          <button type="button" class="choice" data-index="1">MCP server for filesystem</button>
+          <button type="button" class="choice" data-index="2">MCP client for filesystem</button>
+        </div>
+        <p class="feedback" aria-live="polite"></p>
+      </div>
+
+      <h2>Tangible win</h2>
+      <p>
+        You can now narrate a Cursor MCP setup as:
+        <em>Cursor (host) → client instance → your configured MCP server</em>.
+        Next lesson will cover what servers expose: tools, resources, and prompts.
+      </p>
+
+      <div class="ask-teacher">
+        Anything unclear? Ask the agent (your teacher) follow-up questions —
+        for example, how Cursor’s MCP settings map onto these three roles in your environment.
+      </div>
+    </main>
+
+    <footer class="lesson-foot">
+      Tied to <a href="../MISSION.md">MISSION.md</a> ·
+      Sources in <a href="../RESOURCES.md">RESOURCES.md</a> ·
+      Next up: server primitives (tools / resources / prompts)
+    </footer>
+  </div>
+  <script src="../assets/quiz.js"></script>
+</body>
+</html>
