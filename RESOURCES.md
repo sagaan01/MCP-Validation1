@@ -1,31 +1,37 @@
-# MCP Resources
+# Finance & Wealth Resources
 
 ## Knowledge
 
-- [Intro: What is the Model Context Protocol (MCP)?](https://modelcontextprotocol.io/docs/getting-started/intro)
-  Official plain-language overview and USB-C analogy. Use for: first orientation, why MCP exists, ecosystem framing.
-- [Architecture overview](https://modelcontextprotocol.io/docs/learn/architecture)
-  Host / client / server participants, data vs transport layers, primitives, discovery, notifications. Use for: any lesson about roles or protocol shape.
-- [Understanding MCP servers](https://modelcontextprotocol.io/docs/learn/server-concepts)
-  Tools, resources, and prompts with control models (model / application / user). Use for: server-feature lessons and examples.
-- [Understanding MCP clients](https://modelcontextprotocol.io/docs/learn/client-concepts)
-  Client-side capabilities (e.g. elicitation). Use for: after server primitives are solid.
-- [Specification (latest indexed)](https://modelcontextprotocol.io/specification/2025-11-25/)
-  Authoritative protocol requirements and TypeScript schema link. Use for: precise method names, message shapes, MUST/SHOULD rules.
-- [Build an MCP server](https://modelcontextprotocol.io/docs/develop/build-server)
-  Hands-on server tutorial. Use for: first implementation lesson.
-- [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector)
-  Official debugging/testing tool for servers. Use for: practical verification of tools/resources/prompts.
-- [Cursor MCP docs](https://cursor.com/docs/context/mcp)
-  How Cursor acts as an MCP host. Use for: applying concepts inside this product environment.
+- [SEC Investor.gov — What is compound interest?](https://www.investor.gov/additional-resources/information/youth/teachers-classroom-resources/what-compound-interest)
+  Plain-language compounding + Rule of 72 with worked numbers. Use for: TVM intuition and doubling-time estimates.
+- [SEC Investor.gov — Asset allocation & diversification](https://www.investor.gov/introduction-investing/getting-started/asset-allocation)
+  Time horizon, risk tolerance, rebalancing, diversification across and within asset classes. Use for: portfolio interviews.
+- [SEC Investor.gov — Diversify your investments](https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/diversify-your-investments)
+  Short “eggs in one basket” framing and limits of diversification. Use for: crisp one-liners.
+- [SEC Investor.gov — Beginners’ guide to asset allocation, diversification, and rebalancing](https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset)
+  Two-level diversification and rebalancing discipline. Use for: deeper portfolio construction answers.
+- [SEC Investor.gov — How to read a 10-K](https://www.investor.gov/introduction-investing/getting-started/researching-investments/how-read-10-k)
+  Where income statement, balance sheet, and cash flow live in filings; MD&A and risk factors. Use for: company analysis interviews.
+- [SEC Investor.gov — How to read a 10-K/10-Q (bulletin)](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/how-read)
+  Item 8 financial statements under GAAP; what 10-Q adds. Use for: filing literacy.
+- [SEC — Saving and Investing (PDF)](https://www.investor.gov/sites/investorgov/files/2019-02/Saving-and-Investing.pdf)
+  Personal net worth, income/expense tracking, investing basics. Use for: wealth / personal finance framing.
+- [CFA Institute — Time Value of Money in Finance (L1 framing)](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/time-value-money)
+  Professional framing: PV of cash flows, implied returns, cash-flow additivity. Use for: sounding interview-ready beyond retail analogies.
+- [CFA Program curriculum overview](https://www.cfainstitute.org/programs/cfa-program/curriculum)
+  Map of the professional domain (quant, FSA, portfolio, fixed income, equity, alternatives, ethics). Use for: “how big is this field?” answers.
 
 ## Wisdom (Communities)
 
-- [modelcontextprotocol GitHub org](https://github.com/modelcontextprotocol)
-  Spec, SDKs, and reference servers. Use for: issues, examples, and schema changes.
-- [MCP Discussions / community channels via official site](https://modelcontextprotocol.io/community/communication)
-  Official contributor communication guidance. Use for: where to ask protocol questions without relying on rumor.
+- [Bogleheads wiki / forum](https://www.bogleheads.org/wiki/Main_Page)
+  Evidence-oriented long-term investing culture; strong on costs, diversification, behavior. Use for: reality-checks on wealth advice.
+- [r/FinancialCareers](https://www.reddit.com/r/FinancialCareers/)
+  Interview and role expectations across IB/AM/wealth/fintech. Use for: interview format intel (verify claims).
+- Local / professional: CFA society events, Toastmasters for explanation practice
+  Use for: saying concepts out loud before interview day.
 
 ## Gaps
 
-- Need a short, high-trust “stdio vs Streamable HTTP in practice” walkthrough tied to Cursor once the learner has roles + primitives down.
+- Need a localized tax & retirement-account lesson once you name your country/market.
+- Need a valuation lesson (DCF + multiples) after statements + TVM are solid.
+- Need a markets macro mini-lesson (inflation, rates, bull/bear) before interview if the role is markets-facing.

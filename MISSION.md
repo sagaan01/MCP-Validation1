@@ -1,20 +1,21 @@
-# Mission: Model Context Protocol (MCP)
+# Mission: Finance & Wealth Mastery (Interview Sprint)
 
 ## Why
-This workspace exists to learn MCP well enough to validate, configure, and explain MCP integrations in real AI tools (especially Cursor). The concrete outcome is being able to stand up or debug an MCP server connection with confidence, not just recognize the acronym.
+You have a finance/wealth-domain interview next week and need fluent, expert-sounding command of the core subject matter — not trivia. Success means explaining concepts in plain language with stories, recalling the life formulas interviewers expect, and connecting personal wealth ideas to how markets and companies work.
 
 ## Success looks like
-- Correctly name Host, Client, and Server roles in a real Cursor / Claude / VS Code setup
-- Distinguish tools, resources, and prompts, and know who typically controls each
-- Connect or inspect at least one MCP server and describe what it exposes
-- Read official MCP docs as the source of truth instead of relying on folklore
+- Explain TVM, compounding, risk/return, diversification, asset allocation, and the three financial statements in lay terms with a concrete example each
+- Recite and apply the “life formulas” (FV/PV, Rule of 72, simple return, net worth, basic ratios) without freezing
+- Answer follow-ups by tying any concept back to cash flows, risk, and time
+- Sound like someone who has internalized the map of the domain, not memorized buzzwords
 
 ## Constraints
-- Prefer official MCP documentation and specification over secondary blogs
-- Keep lessons short and completable in one sitting
-- Build retrieval practice into every lesson (quizzes / light tasks)
+- Interview is ~1 week away → prioritize high-yield interview concepts first; depth expands after the core map is solid
+- Prefer primary / high-trust sources (SEC Investor.gov, CFA framing, official filings concepts) over random blogs
+- Lessons stay short, story-driven, formula-anchored, with immediate quizzes
+- Geography-agnostic core first; tax/retirement product details can be localized later
 
-## Out of scope
-- Deep OAuth / enterprise authorization extensions (later, if needed)
-- Writing a full production MCP SDK from scratch
-- Non-MCP agent frameworks and plugin systems
+## Out of scope (for now)
+- Exotic derivatives pricing, structured products, full CFA Level II/III depth
+- Country-specific tax filing mechanics (unless you specify a market)
+- Day-trading / tip-chasing / “get rich quick” frameworks

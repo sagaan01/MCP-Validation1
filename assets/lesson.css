@@ -200,6 +200,40 @@ footer.lesson-foot {
   color: var(--muted);
 }
 
+.formula {
+  font-family: var(--mono);
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  padding: 0.85rem 1rem;
+  margin: 1rem 0 1.25rem;
+  overflow-x: auto;
+  font-size: 0.95rem;
+}
+
+.story {
+  background: linear-gradient(135deg, #fff 0%, #f7f3ea 100%);
+  border-left: 3px solid #b0893a;
+  padding: 0.9rem 1.05rem;
+  margin: 1.25rem 0;
+}
+
+.story .label {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #8a6a2a;
+  margin: 0 0 0.35rem;
+}
+
+.nav-lessons {
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  margin: 1.5rem 0;
+}
+
+.nav-lessons a { margin-right: 0.75rem; }
+
 @media print {
   body { background: #fff; }
   .quiz button.choice { border-color: #bbb; }

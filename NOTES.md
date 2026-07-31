@@ -1,15 +1,19 @@
 # Notes
 
-## Session assumptions
-- User invoked `skills/productivity/teach` with no explicit topic.
-- Repo README says “Learning MCP”; run name is “Productivity skills teaching”.
-- Mission inferred as learning Model Context Protocol in this workspace.
-- Confirm or revise the mission with the user at the next opportunity.
+## Mission shift
+- User redirected from MCP learning to full finance & wealth domain mastery for an interview next week.
+- Pedagogy requested: layman terms, examples, small stories, life formulas, path to expertise.
 
-## Teaching preferences
-- Ground claims in official MCP docs (see RESOURCES.md); avoid parametric-only explanations.
-- Lessons: short, Tufte-like, one tangible win, interactive quiz with equal-length answer options.
-- Reuse components under `./assets/`.
+## Interview sprint plan (high yield first)
+1. Time value of money & compounding (+ Rule of 72) — Lesson 0002
+2. Risk, return, diversification, asset allocation — Lesson 0003
+3. Three financial statements + 10-K map — Lesson 0004
+4. Next (upcoming): stocks vs bonds vs cash; valuation basics; personal wealth stack (net worth, emergency fund, insurance); inflation & rates
 
-## Next likely lesson (ZPD guess)
-After Lesson 0001 (participants): tools vs resources vs prompts and who controls each.
+## Teaching preferences (from user)
+- Stories + lay explanations
+- Formulas worth remembering for life
+- Depth toward SME / interview fluency
+
+## Open questions (non-blocking)
+- Exact interview role (wealth advisor, analyst, fintech, banking, etc.) and country — refine later lessons when known.
