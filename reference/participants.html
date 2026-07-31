@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MCP Participants — Reference</title>
+  <link rel="stylesheet" href="../assets/lesson.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="lesson-head">
+      <p class="eyebrow">Reference</p>
+      <h1>MCP participants</h1>
+      <p class="lede">Quick map of Host, Client, and Server — compressed from the official architecture overview.</p>
+    </header>
+
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Role</th>
+            <th>What it is</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="term">MCP Host</span></td>
+            <td>AI application that coordinates one or more MCP clients</td>
+            <td>Cursor, VS Code, Claude Desktop</td>
+          </tr>
+          <tr>
+            <td><span class="term">MCP Client</span></td>
+            <td>Connector inside the host; one client per connected server</td>
+            <td>Runtime object VS Code creates for Sentry MCP</td>
+          </tr>
+          <tr>
+            <td><span class="term">MCP Server</span></td>
+            <td>Program that provides context/capabilities to clients</td>
+            <td>Filesystem server (local), Sentry MCP (remote)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Transport (where the server runs)</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Transport</th>
+            <th>Typical placement</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>stdio</td>
+            <td>Local process on the same machine; often one client</td>
+          </tr>
+          <tr>
+            <td>Streamable HTTP</td>
+            <td>Remote service; often many clients; auth via HTTP/OAuth</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p class="sidenote">
+        Source:
+        <a href="https://modelcontextprotocol.io/docs/learn/architecture">Architecture overview</a>.
+        Related lesson:
+        <a href="../lessons/0001-participants.html">0001 — Name the participants</a>.
+      </p>
+    </main>
+  </div>
+</body>
+</html>

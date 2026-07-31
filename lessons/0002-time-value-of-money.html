@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lesson 0002 — Time value of money</title>
+  <link rel="stylesheet" href="../assets/lesson.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="lesson-head">
+      <p class="eyebrow">Lesson 0002 · Finance &amp; Wealth</p>
+      <h1>Time value of money</h1>
+      <p class="lede">Why ₹1 (or $1) today beats the same amount later — and the formulas that make wealth math click in interviews.</p>
+    </header>
+    <main>
+      <h2>Layman idea</h2>
+      <p>
+        Money has a <strong>time price</strong>. If someone offers you cash now or the same cash next year, take it now —
+        because today’s money can earn a return (or buy something you need today). That opportunity cost is the heart of finance.
+        CFA framing calls the interest rate a required return, a discount rate, or an opportunity cost — three names for the same idea.
+      </p>
+
+      <div class="story">
+        <p class="label">Small story</p>
+        <p>
+          Maya can take a client’s $1,000 fee today, or wait one year. Her savings earn 5%.
+          If she waits, she still gets $1,000 — but she <em>misses</em> the $50 her money could have earned.
+          So the “same” $1,000 next year is weaker. That’s time value of money (TVM).
+        </p>
+      </div>
+
+      <h2>Compounding (interest on interest)</h2>
+      <p>
+        Per <a href="https://www.investor.gov/additional-resources/information/youth/teachers-classroom-resources/what-compound-interest">SEC Investor.gov</a>:
+        start with $100 at 5%. Year 1 → $105. Year 2 → $110.25 — you earned $5 on the original $100 <em>and</em> $0.25 on the first year’s interest.
+        Leave it alone 10 years → more than $162; 25 years → almost $340. No extra deposits. Time did the work.
+      </p>
+
+      <div class="formula">FV = PV × (1 + r)<sup>n</sup></div>
+      <p>Example: PV = 100, r = 0.05, n = 2 → FV = 100 × 1.05² = 110.25.</p>
+      <div class="formula">PV = FV ÷ (1 + r)<sup>n</sup></div>
+      <p>Flip it: what is $110.25 in two years worth today at 5%? → $100.</p>
+
+      <h2>Rule of 72 (life formula)</h2>
+      <div class="formula">Years to double ≈ 72 ÷ (annual rate %)</div>
+      <p>
+        SEC example: at ~9%, 72 ÷ 9 ≈ 8 years to double.
+        Interview line: “I use the Rule of 72 to sanity-check compounding speed.”
+      </p>
+
+      <div class="primary-source">
+        <strong>Primary source</strong>
+        Read
+        <a href="https://www.investor.gov/additional-resources/information/youth/teachers-classroom-resources/what-compound-interest">What is compound interest?</a>
+        then skim the CFA
+        <a href="https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/time-value-money">TVM in Finance</a>
+        learning outcomes (PV of cash flows, implied returns).
+      </div>
+
+      <p>Keep open: <a href="../reference/life-formulas.html">life-formulas.html</a>.</p>
+
+      <h2>Skill check</h2>
+
+      <div
+        class="quiz"
+        data-quiz
+        data-answer="1"
+        data-explain-ok="Yes — today’s cash can earn a return; waiting has an opportunity cost."
+        data-explain-bad="Think opportunity cost: money in hand can work for you now."
+      >
+        <h3>Check 1</h3>
+        <p class="q">Why is $100 today usually worth more than $100 in one year?</p>
+        <div class="choices">
+          <button type="button" class="choice" data-index="0">inflation always falls each year</button>
+          <button type="button" class="choice" data-index="1">todays cash can earn returns</button>
+          <button type="button" class="choice" data-index="2">banks forbid all delayed payouts</button>
+        </div>
+        <p class="feedback" aria-live="polite"></p>
+      </div>
+
+      <div
+        class="quiz"
+        data-quiz
+        data-answer="2"
+        data-explain-ok="Correct — Rule of 72: 72 ÷ 8 ≈ 9 years to double."
+        data-explain-bad="Use years ≈ 72 ÷ rate%. For 8%, that’s about 9 years."
+      >
+        <h3>Check 2</h3>
+        <p class="q">At an 8% expected annual return, about how long to double?</p>
+        <div class="choices">
+          <button type="button" class="choice" data-index="0">About four years to double</button>
+          <button type="button" class="choice" data-index="1">About six years to double</button>
+          <button type="button" class="choice" data-index="2">About nine years to double</button>
+        </div>
+        <p class="feedback" aria-live="polite"></p>
+      </div>
+
+      <div
+        class="quiz"
+        data-quiz
+        data-answer="0"
+        data-explain-ok="Yes — FV = 1,000 × 1.10¹ = 1,100."
+        data-explain-bad="One period at 10%: multiply by 1.10 once."
+      >
+        <h3>Check 3</h3>
+        <p class="q">$1,000 compounds one year at 10%. Future value is…</p>
+        <div class="choices">
+          <button type="button" class="choice" data-index="0">one thousand one hundred</button>
+          <button type="button" class="choice" data-index="1">one thousand zero hundred</button>
+          <button type="button" class="choice" data-index="2">one thousand two hundred</button>
+        </div>
+        <p class="feedback" aria-live="polite"></p>
+      </div>
+
+      <div class="ask-teacher">
+        Ask the agent anything unclear — e.g. annuity vs lump sum, EAR vs APR, or a practice PV problem for your interview.
+      </div>
+    </main>
+    <footer class="lesson-foot">
+      <a href="0003-risk-return-diversification.html">Next: Risk, return &amp; diversification →</a>
+      · Tied to <a href="../MISSION.md">MISSION.md</a>
+    </footer>
+  </div>
+  <script src="../assets/quiz.js"></script>
+</body>
+</html>
