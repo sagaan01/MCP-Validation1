@@ -1,8 +1,8 @@
-# QA Analyst Interview Prep — Azure / Teradata / Big Data
+# QA Analyst Interview Prep — Azure / Teradata / Big Data / Databricks
 
 Topic-wise interview banks from **basic → practical → senior → lead**, with strong, example-backed answers.
 
-Aligned to roles that validate **data pipelines, ETL, Azure databases, Teradata, Big Data testing, and data quality**.
+Aligned to roles that validate **data pipelines, ETL, Azure databases, Teradata, Databricks, Big Data testing, and data quality**.
 
 ## Contents
 
@@ -15,8 +15,9 @@ Aligned to roles that validate **data pipelines, ETL, Azure databases, Teradata,
 | 5 | SQL & Reconciliation | [05-sql-reconciliation-qa.md](05-sql-reconciliation-qa.md) | 55 |
 | 6 | Data Quality | [06-data-quality-qa.md](06-data-quality-qa.md) | 55 |
 | 7 | Leadership & Behavioral | [07-leadership-behavioral-qa.md](07-leadership-behavioral-qa.md) | 55 |
+| 8 | Databricks | [08-databricks-qa.md](08-databricks-qa.md) | 62 |
 
-**Total: 385 questions and answers**
+**Total: 447 questions and answers**
 
 ## Level tags
 
@@ -28,11 +29,11 @@ Aligned to roles that validate **data pipelines, ETL, Azure databases, Teradata,
 ## How to practice
 
 1. Pick one topic per day; answer out loud before reading the model answer.  
-2. For SQL items, type the query yourself.  
+2. For SQL/Spark items, type the query yourself.  
 3. Convert 5 answers/day into 60–90 second spoken versions.  
 4. Pair with the skill: `/senior-etl-data-testing-360-interview` when you paste a full JD.  
 
-## Suggested 7-day drill
+## Suggested drill plan
 
 | Day | Focus |
 |-----|--------|
@@ -41,5 +42,6 @@ Aligned to roles that validate **data pipelines, ETL, Azure databases, Teradata,
 | 3 | Azure Databases & ADF |
 | 4 | Teradata |
 | 5 | Big Data Testing |
-| 6 | Data Quality |
-| 7 | Leadership & full mock aloud |
+| 6 | Databricks |
+| 7 | Data Quality |
+| 8 | Leadership & full mock aloud |
