@@ -2,6 +2,13 @@
 
 ## Cursor Cloud specific instructions
 
+### Project skills
+- Senior ETL / Data Testing 360° interview coach lives at
+  `.cursor/skills/senior-etl-data-testing-360-interview/SKILL.md`.
+- When the user pastes a job description, recruiter message, role requirements,
+  or asks for ETL/data-testing interview prep, read and follow that skill
+  immediately (invoke as `/senior-etl-data-testing-360-interview`).
+
 ### Repository state
 This repository (`MCP-Validation1`) is currently a bare scaffold for learning MCP
 (Model Context Protocol). As of this writing it contains only `README.md` and a
