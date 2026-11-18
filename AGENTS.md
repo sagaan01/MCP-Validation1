@@ -10,22 +10,23 @@
   immediately (invoke as `/senior-etl-data-testing-360-interview`).
 
 ### Repository state
-This repository (`MCP-Validation1`) is currently a bare scaffold for learning MCP
-(Model Context Protocol). As of this writing it contains only `README.md` and a
-Python-oriented `.gitignore` — there is **no application code, dependency manifest,
-tests, or build configuration yet**. There is therefore nothing to build, run, or
-test until source code is added.
+This repository (`MCP-Validation1`) includes the Agent SDK project
+`marketplace-flip-coach/` (local Marketplace flipping coach). Root still has
+no Python app dependency manifest.
+
+### marketplace-flip-coach
+- Path: `marketplace-flip-coach/`
+- Install: `cd marketplace-flip-coach && npm install`
+- Validate: `npx --yes "@grok/agent-sdk@0.6.0" validate --dir marketplace-flip-coach`
+- Typecheck: `cd marketplace-flip-coach && npx tsc --noEmit`
+- Playground: `npx --yes "@grok/agent-sdk@0.6.0" dev --dir marketplace-flip-coach`
+  (requires Cursor login / `CURSOR_API_KEY` for model turns)
 
 ### Toolchain
-- Python 3.12 is preinstalled and is the intended language (the `.gitignore` is the
-  standard Python template). `pip` works directly (the system Python is not
-  PEP 668 externally-managed in this environment).
-- Node.js is also available if a JS/TS MCP server is added later.
+- Python 3.12 is preinstalled. `pip` works directly (not PEP 668 externally-managed).
+- Node.js 22+ is required for `marketplace-flip-coach`.
 
-### When code is added
-- If a `requirements.txt` appears, install it with `pip install -r requirements.txt`.
+### When Python deps are added
+- If a root `requirements.txt` appears, install with `pip install -r requirements.txt`.
 - If a `pyproject.toml` appears, install with `pip install -e .` (or `uv sync` if a
   `uv.lock` is present and `uv` is installed).
-- The startup update script is intentionally guarded to be a no-op while the repo
-  has no dependency manifest, and will begin installing dependencies automatically
-  once a `requirements.txt` is committed.
