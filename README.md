@@ -20,6 +20,12 @@
 
 ---
 
+## Resources
+
+- [Scenario-Based Problem Solving in Modern QE & the AI Era](docs/modern-qe-ai-scenario-problem-solving.md) — interview-ready scenarios, common failures, and resolution playbooks for AI-augmented quality engineering.
+
+---
+
 ## Tech Stack
 
 **Automation & Testing:** Playwright · Selenium · Postman · JMeter · Python · SQL  
